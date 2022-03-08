@@ -35,10 +35,10 @@ li a:hover {
     border: none;
     cursor: text;
     padding: 5px 15px 8px 18px ;
-    border-top: 50px;
     height: 30px;
     width: 160px;
     font-size: 14px;
     font-weight: 700;
     margin-top: 15px;
+    margin-left: 15px;
 }
