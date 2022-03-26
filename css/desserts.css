@@ -42,36 +42,3 @@ li a:hover {
     margin-top: 15px;
     margin-left: 12px;
 }
-
-h2{
-    font-family: 'Rubik Mono One', sans-serif;
-    text-align: center;
-    color: rgb(0, 173, 214);;
-    font-weight: 800;
-}
-
-.info{
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: 750;
-    width: 800px;
-    color: rgb(0, 173, 214);;
-    border: 1px solid lightgray;
-    padding: 10px;
-    line-height: 2em;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-.review{
-    font-family: 'Rubik Mono One', sans-serif;
-    font-weight: 750;
-    width: 800px;
-    border: 1px solid lightgray;
-    color: rgb(0, 173, 214);;
-    padding: 10px;
-    line-height: 1.5em;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-

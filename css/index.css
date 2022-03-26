@@ -40,5 +40,30 @@ li a:hover {
     font-size: 14px;
     font-weight: 700;
     margin-top: 15px;
-    margin-left: 15px;
+    margin-left: 12px;
+}
+
+h2{
+    background-color: rgb(238, 201, 81);
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 173, 214);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+}
+
+#sitemap{
+    color: rgb(0, 173, 214);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-decoration: none;
 }
