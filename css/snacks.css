@@ -17,7 +17,7 @@ li a {
     display: block;
     color:white;
     padding: 25px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     font-weight: 800;
@@ -37,8 +37,30 @@ li a:hover {
     padding: 5px 15px 8px 18px ;
     height: 30px;
     width: 150px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-left: 12px;
+}
+
+
+caption{
+    color: rgb(238, 201, 81);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#table{
+    margin-right: auto;
+    margin-left: 25%;
+    padding: 5px;
+}
+
+#recipe{
+    color: rgb(0, 173, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 15px;
 }
