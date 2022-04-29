@@ -17,7 +17,7 @@ li a {
     display: block;
     color:white;
     padding: 25px;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     font-weight: 800;
@@ -37,9 +37,9 @@ li a:hover {
     padding: 5px 15px 8px 18px ;
     height: 30px;
     width: 150px;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 18px;
     margin-left: 12px;
 }
 
@@ -56,7 +56,7 @@ h3{
     color: rgb(0, 173, 214);
     font-size: 25px;
     font-weight: 800;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 
@@ -64,6 +64,45 @@ h3{
     color: rgb(0, 173, 214);
     font-size: 20px;
     font-weight: 800;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
+}
+
+caption{
+    color: rgb(0, 173, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#brunch, #cesar, #pastavodka, #nicoise{
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 173, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
+#table1{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#table2{
+    background-color: rgb(238, 201, 81);
+    padding-left: 200px;
+    padding-right: 177px;
+    padding-bottom: 50px;
+}
+
+#box{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+#images{
+    padding: 50px;
 }
