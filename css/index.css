@@ -75,8 +75,8 @@ caption{
     text-align: center;
 }
 
-#brunch, #cesar, #pastavodka, #nicoise{
-    padding: 25px;
+#brunch-text, #cesar-text, #pastavodka-text, #nicoise-text{
+
     text-align: center;
     color: rgb(0, 173, 214);
     font-family: Georgia, 'Times New Roman', Times, serif;

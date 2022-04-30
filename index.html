@@ -6,11 +6,12 @@
     <meta linkrel = "icon">
     <title>HomePage</title>
     <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" type="image" href="additional info/logo.png">
   </head>
   <body>
     <nav>
       <ul>
-        <li><a class="logo" href="#"><img src="additional info/logo.png" alt="logo" height="53" title="logo"></a></li>
+        <li><a class="logo" href="index.html"><img src="additional info/logo.png" alt="logo" height="53" title="logo"></a></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="snacks.html">Snacks</a></li>
         <li><a href="apetizers.html">Apetizers</a></li>
@@ -58,10 +59,10 @@
         </td>
       </tr>
       <tr>
-        <td id="brunch">Want to host Sunday Brunch<br>at your house?</td>
-        <td id="cesar">Fresh and Easy Salad!</td>
-        <td id="pastavodka">Nothing better than Vodka Pasta<br> while watching a movie...</td>
-        <td id="nicoise">Quick and Filling Salad!</td>
+        <td id="brunch-text">Want to host Sunday Brunch<br>at your house?</td>
+        <td id="cesar-text">Fresh and Easy Salad!</td>
+        <td id="pastavodka-text">Nothing better than Vodka Pasta<br> while watching a movie...</td>
+        <td id="nicoise-text">Quick and Filling Salad!</td>
       </tr>
     </table>
 
@@ -107,7 +108,73 @@
     <a id="sitemap" href="sitemap.html">Come Cook with Me - Site Map</a>
 
     <script>
+      function Brunch(){
+        console.log("testing...");
+        let image1 = document.getElementById("brunch");
+          image1.src = "images/Fondue.jpeg";
+          document.getElementById("brunch-text").innerText = "Fondue Night, best night!";}
+        document.getElementById("brunch").onmouseover = function () {Brunch();};
+
+      function Fondue(){
+        console.log("testing...");
+        let image1 = document.getElementById("brunch");
+          image1.src = "images/Brunch.jpeg";
+          document.getElementById("brunch-text").innerText = "Want to host Sunday Brunch at your house?";}
+        document.getElementById("brunch").onmouseout = function () {Fondue();};
+
+      function Cesar(){
+        console.log("testing...");
+        let image1 = document.getElementById("cesar");
+          image1.src = "images/Caprese.jpg";
+          document.getElementById("cesar-text").innerText = "Fast and Enjoyable!";}
+        document.getElementById("cesar").onmouseover = function () {Cesar();};
+
+      function Caprese(){
+        console.log("testing...");
+        let image1 = document.getElementById("cesar");
+          image1.src = "images/Cesar.jpg";
+          document.getElementById("cesar-text").innerText = "Fresh and Easy Salad!";}
+        document.getElementById("cesar").onmouseout = function () {Caprese();};
+
+      function Pasta(){
+        console.log("testing...");
+        let image1 = document.getElementById("pastavodka");
+          image1.src = "images/FriedRice.jpg";
+          document.getElementById("pastavodka-text").innerText = "Yummy Rice!";}
+        document.getElementById("pastavodka").onmouseover = function () {Pasta();};
+
+      function FriedRice(){
+        console.log("testing...");
+        let image1 = document.getElementById("pastavodka");
+          image1.src = "images/PastaVodka.jpeg";
+          document.getElementById("pastavodka-text").innerText = "	Nothing better than Vodka Pasta while watching a movie...";}
+        document.getElementById("pastavodka").onmouseout = function () {FriedRice();};
+
+      function Nicoise(){
+        console.log("testing...");
+        let image1 = document.getElementById("nicoise");
+          image1.src = "images/Bolognese.jpeg";
+          document.getElementById("nicoise-text").innerText = "Comfort Pasta!";}
+        document.getElementById("nicoise").onmouseover = function () {Nicoise();};
+
+      function Bolognese(){
+        console.log("testing...");
+        let image1 = document.getElementById("nicoise");
+          image1.src = "images/Nicoise.jpeg";
+          document.getElementById("nicoise-text").innerText = "Quick and Filling Salad!";}
+        document.getElementById("nicoise").onmouseout = function () {Bolognese();};
       
+      
+      function changeBckgrnd(){
+        const bgColors = ["green", "rgb(238, 201, 81)", "rgb(0, 173, 214)", "pink", "red", "orange"];
+        const n = bgColors.length;
+        const randIndex = Math.floor(Math.random() * n);
+
+        const b = document.getElementById("table2");
+        b.style.backgroundColor = bgColors[randIndex];
+      }
+
+      document.getElementById("table2").onclick = function () {changeBckgrnd();};
     </script>
   </body>
 </html>

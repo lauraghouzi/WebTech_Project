@@ -50,11 +50,18 @@ caption{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-td{
+a{
+    text-decoration: none;
     color: rgb(0, 173, 214);
-    padding-left: 10px;
-    font-size: 14px;
+    padding: 20px;
+    font-size: 20px;
     font-weight: 800;
     padding-bottom: 5px;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -5,11 +5,12 @@
     <meta content="width=device-width, initial-scale=1.0" name="contactinfo" />
     <title>Contact Me</title>
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="icon" type="image" href="additional info/logo.png">
     </head>
     <body>
         <nav>
             <ul>
-                <li><a class="logo" href="#"><img src="additional info/logo.png" alt="logo" height="53" title="logo"></a></li>
+              <li><a class="logo" href="index.html"><img src="additional info/logo.png" alt="logo" height="53" title="logo"></a></li>
               <li><a href="index.html">Home</a></li>
               <li><a href="snacks.html">Snacks</a></li>
               <li><a href="apetizers.html">Apetizers</a></li>
@@ -28,7 +29,7 @@
           </nav>
           <br>
         <h2>Please feel free to ask questions or a review below!</h2>
-        <form method="post" action="https://oim-apis.herokuapp.com/form">
+        <form method="post" action="https://oim-apis.herokuapp.com/form" name="myForm" onsubmit="return validateForm()">
         <fieldset class="info">
             <legend><span style="font-weight: bold;">Your Information</span></legend>
             <div>
@@ -103,6 +104,44 @@
             <button type="reset">Reset</button>
         </fieldset>
         </form>
+        <br><br>
+        <div style = "text-align: center">
+            <img id="image" src="images/Cookies.jpg" alt="" height="500">
+        </div>
+    <script>
+        function validateForm(){
+            let name = document.forms["myForm"]["Name"].value;
+            let email = document.forms["myForm"]["Email Address"].value;
+            if (name == ""|| email == "") {
+                alert("Form must be filled out");
+                return false;
+            }
+        }
+
+    const slides = [
+        "images/Bars.jpg",
+        "images/Caprese.jpg",
+        "images/FriedRice.jpg",
+        "images/Guacamole.jpg",
+        "images/PastaVodka.jpeg",
+        "images/pie.jpg",
+        "images/Taco.jpeg",
+        "images/Valentines.jpeg",
+    ];
+
+    let i=0;
+    function slideShow(){
+        if (i== slides.length){
+            i=0;}
+        const image = document.getElementById("image");
+        image.src = slides[i];
+        i++;
+
+        setTimeout(slideShow,1000); 
+    }
+    document.querySelector("body").onload = function(){slideShow();}
+
+    </script>
     </body>
 </html>
     
